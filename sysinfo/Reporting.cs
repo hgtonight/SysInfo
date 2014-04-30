@@ -11,20 +11,37 @@ namespace sysinfo
 {
     class Reporting
     {
-        OperatingSystem os = new OperatingSystem();
-        CPU cpu = new CPU();
-        GFX gfx = new GFX();
-        HardDrive hardDrive = new HardDrive();
-        InstalledPrograms programs = new InstalledPrograms();
-        Motherboard mb = new Motherboard();
-        PageFile pageFile = new PageFile();
-        ProcessList processes = new ProcessList();
-        RAM memory = new RAM();
-        ServiceList services = new ServiceList();
-        StartupItems startupItems = new StartupItems();
-        HardDrive hd = new HardDrive();
+        OperatingSystem os;
+        CPU cpu;
+        GFX gfx;
+        HardDrive hardDrive;
+        InstalledPrograms programs;
+        Motherboard mb;
+        PageFile pageFile;
+        ProcessList processes;
+        RAM memory;
+        ServiceList services;
+        StartupItems startupItems;
+        HardDrive hd;
+        String report;
+        
 
-        String report = "";
+        public Reporting()
+        {
+            os = new OperatingSystem();
+            cpu = new CPU();
+            gfx = new GFX();
+            hardDrive = new HardDrive();
+            programs = new InstalledPrograms();
+            mb = new Motherboard();
+            pageFile = new PageFile();
+            processes = new ProcessList();
+            memory = new RAM();
+            services = new ServiceList();
+            startupItems = new StartupItems();
+            hd = new HardDrive();
+            report = "";
+        }
 
         private String GenerateReport()
         {
