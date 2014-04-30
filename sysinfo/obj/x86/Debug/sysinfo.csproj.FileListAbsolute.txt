@@ -1,0 +1,7 @@
+c:\users\kautzman\documents\visual studio 2010\Projects\sysinfo\sysinfo\obj\x86\Debug\sysinfo.main.resources
+c:\users\kautzman\documents\visual studio 2010\Projects\sysinfo\sysinfo\obj\x86\Debug\sysinfo.Properties.Resources.resources
+c:\users\kautzman\documents\visual studio 2010\Projects\sysinfo\sysinfo\obj\x86\Debug\sysinfo.csproj.GenerateResource.Cache
+c:\users\kautzman\documents\visual studio 2010\Projects\sysinfo\sysinfo\bin\Debug\sysinfo.exe
+c:\users\kautzman\documents\visual studio 2010\Projects\sysinfo\sysinfo\bin\Debug\sysinfo.pdb
+c:\users\kautzman\documents\visual studio 2010\Projects\sysinfo\sysinfo\obj\x86\Debug\sysinfo.exe
+c:\users\kautzman\documents\visual studio 2010\Projects\sysinfo\sysinfo\obj\x86\Debug\sysinfo.pdb
